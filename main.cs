@@ -226,7 +226,7 @@ class Program{
     int turn = 0;
    while(deck.pileCount())
    {
-     //deck.testing();
+     //deck.testing();//Uncomment to see the movement of the cards 
      string key = Console.ReadLine();
      if(key == "s" || key == "l")
      { 
